@@ -281,3 +281,103 @@
 // else {
 //     console.log('Ваше число 1')
 // }
+
+// Задача 7
+// const numberOne = +prompt('Введите первое число: ')
+// const numberTwo = +prompt('Введите второе число: ')
+// if (isNaN(numberOne && numberTwo1)) {
+//     console.log('Введите цифрами!')
+// }
+// else if (numberOne <= numberTwo) {
+//     1
+//     console.log(`Ваше максимальное число: ${numberTwo} `)
+// }
+// else if (numberOne >= numberTwo) {
+//     console.log(`Ваше максимальное число: ${numberOne}`)
+// }
+
+// Задача 8
+// const num1 = +prompt('Введите первое число: ')
+// const num2 = +prompt('Введите второе число: ')
+// if (num1 % num2 === 0) {
+//     console.log(`${num1} кратно ${num2}`)
+// }
+// else {
+//     console.log(`${num1} не кратно ${num2}`)
+// }
+
+// Задача 9
+// const question = +prompt('Введите Ваш средний бал: ')
+// if (question <= 4) {
+//     console.log('Двоечник, иди учись!')
+// }
+// else if (question <= 8) {
+//     console.log('Неплохо, но давай еще поднажмем!')
+// }
+// else if (question >= 9) {
+//     console.log('Ого, да ты настоящий отличник!')
+// }
+
+// Задача 10
+// const questionExam = +prompt('Напишите свой балл за экзамен (от 0 до 100): ')
+// const questionProjects = +prompt('Напишите количество выполненых проектов (от 0 и больше)')
+// if (questionExam > 90 || questionProjects > 10) {
+//     console.log('Ваш балл: 100')
+// }
+// else if (questionExam > 75 || questionProjects > 5) {
+//     console.log('Ваш балл: 90')
+// }
+// else if (questionExam > 50 || questionProjects > 2) {
+//     console.log('Ваш балл: 75')
+// }
+// else {
+//     console.log('Ваш балл: 0')
+// }
+
+// Задача 11
+// const rentalDay = +prompt('На какой количество дней хотите арендовать машину? ')
+// rentalOneDay = 40
+// discountThreeDay = 20
+// discountSevenDay = 50
+// if (rentalDay <= 2) {
+//     console.log(rentalDay * rentalOneDay)
+// }
+// else if (rentalDay <= 65) {
+//     console.log(rentalDay * rentalOneDay - discountThreeDay)
+// }
+// else if (rentalDay >= 7) {
+//     console.log(rentalDay * rentalOneDay - discountSevenDay)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
