@@ -28,4 +28,3 @@
 //     ulTag.appendChild(liTag)
 //     inputText.value = ''
 // })
-

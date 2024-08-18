@@ -88,10 +88,10 @@
 // Есть массив объектов с полями name, age. Например:
 
 // const users = [
-// {name: 'Mark', age: 12},
-// {name: 'Olga', age: 30},
-// {name:'Tom', age: 25},
-// {name:'Den', age: 43}
+//     {name: 'Mark', age: 12},
+//     {name: 'Olga', age: 30},
+//     {name:'Tom', age: 25},
+//     {name:'Den', age: 43}
 // ]
 
 // Создать в html таблицу (table).
@@ -115,4 +115,37 @@
 // thead.appendChild(headerRow)
 // table.appendChild(thead)
 
+// nameHeader.style.color = 'red'
+// ageHeader.style.color = 'blue'
 
+// const tbody = document.createElement('tbody');
+
+// users.forEach(user => {
+//     const row = document.createElement('tr');
+
+//     const nameCell = document.createElement('td');
+//     nameCell.innerText = user.name;
+//     nameCell.classList.add('name')
+//     row.appendChild(nameCell)
+            
+//     const ageCell = document.createElement('td')
+//     ageCell.innerText = user.age
+//     ageCell.classList.add('age')
+//     row.appendChild(ageCell)
+
+//     tbody.appendChild(row)
+// });
+
+// table.appendChild(tbody)
+// tableTag.appendChild(table)
+
+
+// Задание 10
+
+// Есть верстка: https://teenscool1.notion.site...
+
+// С помощью JavaScript:
+
+// 1) Найти в коде список ul и добавить ему класс “list”.
+// 2) На li через один (начиная с самого первого) установить класс “item”
+// 3) На все ссылки в примере установить класс “custom-link”
